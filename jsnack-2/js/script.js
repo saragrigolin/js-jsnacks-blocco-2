@@ -1,14 +1,14 @@
 /*jsnack 2
 Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari*/
 
-/*
+
 //metodo 1: esercizio con array preimpostato
 
 //creo array numeri e variabile somma
 let arrayNum = [];
 let sum = 0;
 
-//ciclo for per generare numeri array
+//ciclo for per generare numeri
 for (let i = 0; i < 10; i++) {
     arrayNum[i] = Math.floor(Math.random() * 101);
 }
@@ -30,8 +30,8 @@ for (let index = 0; index < arrayNum.length; index++) {
 //mostro somma in console e nel DOM
 console.log('la somma dei numeri in posizion dispari è: ' + sum);
 document.writeln('La somma dei numeri in posizion dispari è: ' + sum);
-*/
 
+/*
 //metodo 2: esercizio con array scelto dall'utente
 
 //creo array vuoto e variabile somma
@@ -62,3 +62,4 @@ for (let index = 0; index < 10; index++) {
 //mostro somma in console e nel DOM
 console.log('la somma dei numeri in posizion dispari è: ' + sum);
 document.writeln('La somma dei numeri in posizione dispari è: ' + sum);
+*/
