@@ -5,8 +5,14 @@ Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in 
 //metodo 1: esercizio con array preimpostato
 
 //creo array numeri e variabile somma
-let arrayNum = [1, 13, 16, 3, 5, 7, 10, 55, 67, 98];
+let arrayNum = [];
 let sum = 0;
+
+//ciclo for per generare numeri array
+for (let i = 0; i < 10; i++) {
+    arrayNum[i] = Math.floor(Math.random() * 101);
+}
+console.log(arrayNum);
 
 //ciclo for per la lunghezza dell'array dei numeri
 for (let index = 0; index < arrayNum.length; index++) {
