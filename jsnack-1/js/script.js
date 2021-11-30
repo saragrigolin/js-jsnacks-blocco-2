@@ -20,5 +20,13 @@ for (let i = 0; i < 20; i++){
     guests.push(guest);
 }
 
-//mostro la lista degli ospiti
+//mostro la lista degli ospiti in console
 console.log(guests);
+
+//mostro la lista degli invitati nel DOM
+const ul = document.querySelector('ul');
+for (let index = 0; index < guests.length; index++) {
+    let li;
+    li = `<li>${guests[index]}</li>`;
+    ul.innerHTML += li;
+}
