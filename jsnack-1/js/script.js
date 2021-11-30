@@ -53,7 +53,11 @@ for (let i = 0; i < 20; i++) {
 
     //L'ospite è composto da nome e cognomi presi randomicamente dagli array
     let guest = guestRnd(9);
-    guests.push(guest);
+
+    //controllo doppioni
+    if (!guests.includes(guest)) {
+        guests.push(guest);
+    }
 }
 
 //mostro la lista degli ospiti in console
