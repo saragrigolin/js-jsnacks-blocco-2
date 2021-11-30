@@ -49,7 +49,7 @@ let lastNames = ['Rossi', 'Ferrari', 'Russo', 'Bianchi', 'Romano', 'Gallo', 'Cos
 let guests = [];
 
 //ciclo for che generi 20 invitati
-for (let i = 0; i < 20; i++) {
+while (guests.length < 20) {
 
     //L'ospite è composto da nome e cognomi presi randomicamente dagli array
     let guest = guestRnd(9);
